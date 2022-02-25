@@ -1,0 +1,12 @@
+pt-BR:
+  activerecord:
+    attributes:
+      person:
+        name: Nome
+        birthdate: Data de Nascimento
+        email: E-mail
+        phones: Telefones
+      phone:
+        phone: Número de telefone
+        description: Descrição
+        status: Situação

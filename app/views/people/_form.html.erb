@@ -1,7 +1,7 @@
 <%= form_with(model: person) do |form| %>
   <% if person.errors.any? %>
     <div style="color: red">
-      <h2><%= pluralize(person.errors.count, "error") %> prohibited this person from being saved:</h2>
+      <h2><%= pluralize(person.errors.count, "erro") %> erros não permitem salvar o registro:</h2>
 
       <ul>
         <% person.errors.each do |error| %>
